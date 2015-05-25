@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D0FE43181FF364007C9B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE42181FF364007C9B9A /* Foundation.framework */; };
+		D8D0FE45181FF364007C9B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE44181FF364007C9B9A /* CoreGraphics.framework */; };
+		D8D0FE47181FF364007C9B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE46181FF364007C9B9A /* UIKit.framework */; };
+		D8D0FE4D181FF364007C9B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE4B181FF364007C9B9A /* InfoPlist.strings */; };
+		D8D0FE4F181FF364007C9B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0FE4E181FF364007C9B9A /* main.m */; };
+		D8D0FE53181FF364007C9B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0FE52181FF364007C9B9A /* AppDelegate.m */; };
+		D8D0FE56181FF364007C9B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE54181FF364007C9B9A /* Main.storyboard */; };
+		D8D0FE59181FF364007C9B9A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0FE58181FF364007C9B9A /* MasterViewController.m */; };
+		D8D0FE5C181FF364007C9B9A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0FE5B181FF364007C9B9A /* DetailViewController.m */; };
+		D8D0FE5E181FF364007C9B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE5D181FF364007C9B9A /* Images.xcassets */; };
+		D8D0FE65181FF364007C9B9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE64181FF364007C9B9A /* XCTest.framework */; };
+		D8D0FE66181FF364007C9B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE42181FF364007C9B9A /* Foundation.framework */; };
+		D8D0FE67181FF364007C9B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0FE46181FF364007C9B9A /* UIKit.framework */; };
+		D8D0FE6F181FF364007C9B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE6D181FF364007C9B9A /* InfoPlist.strings */; };
+		D8D0FE71181FF364007C9B9A /* NavalMinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0FE70181FF364007C9B9A /* NavalMinesTests.m */; };
+		D8D0FE8A181FF430007C9B9A /* BottomContactMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE7B181FF430007C9B9A /* BottomContactMines.html */; };
+		D8D0FE8B181FF430007C9B9A /* captor.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE7C181FF430007C9B9A /* captor.png */; };
+		D8D0FE8C181FF430007C9B9A /* Classification.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE7D181FF430007C9B9A /* Classification.html */; };
+		D8D0FE8D181FF430007C9B9A /* Countermeasures.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE7E181FF430007C9B9A /* Countermeasures.html */; };
+		D8D0FE8E181FF430007C9B9A /* DriftingContactMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE7F181FF430007C9B9A /* DriftingContactMines.html */; };
+		D8D0FE8F181FF430007C9B9A /* global.css in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE80181FF430007C9B9A /* global.css */; };
+		D8D0FE90181FF430007C9B9A /* InfluenceMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE81181FF430007C9B9A /* InfluenceMines.html */; };
+		D8D0FE91181FF430007C9B9A /* LimpetMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE82181FF430007C9B9A /* LimpetMines.html */; };
+		D8D0FE92181FF430007C9B9A /* MooredContactMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE83181FF430007C9B9A /* MooredContactMines.html */; };
+		D8D0FE93181FF430007C9B9A /* ramics.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE84181FF430007C9B9A /* ramics.png */; };
+		D8D0FE94181FF430007C9B9A /* RemotelyControlledMines.html in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE85181FF430007C9B9A /* RemotelyControlledMines.html */; };
+		D8D0FE95181FF430007C9B9A /* remus.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE86181FF430007C9B9A /* remus.png */; };
+		D8D0FE96181FF430007C9B9A /* rmmv.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE87181FF430007C9B9A /* rmmv.png */; };
+		D8D0FE97181FF430007C9B9A /* slmm.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE88181FF430007C9B9A /* slmm.png */; };
+		D8D0FE98181FF430007C9B9A /* videoCaptor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D8D0FE89181FF430007C9B9A /* videoCaptor.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D0FE68181FF364007C9B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D0FE37181FF364007C9B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D0FE3E181FF364007C9B9A;
+			remoteInfo = NavalMines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8D0FE3F181FF364007C9B9A /* NavalMines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavalMines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D0FE42181FF364007C9B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8D0FE44181FF364007C9B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8D0FE46181FF364007C9B9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8D0FE4A181FF364007C9B9A /* NavalMines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavalMines-Info.plist"; sourceTree = "<group>"; };
+		D8D0FE4C181FF364007C9B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D0FE4E181FF364007C9B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D0FE50181FF364007C9B9A /* NavalMines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavalMines-Prefix.pch"; sourceTree = "<group>"; };
+		D8D0FE51181FF364007C9B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8D0FE52181FF364007C9B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8D0FE55181FF364007C9B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8D0FE57181FF364007C9B9A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D8D0FE58181FF364007C9B9A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D8D0FE5A181FF364007C9B9A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D8D0FE5B181FF364007C9B9A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D8D0FE5D181FF364007C9B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8D0FE63181FF364007C9B9A /* NavalMinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavalMinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D0FE64181FF364007C9B9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8D0FE6C181FF364007C9B9A /* NavalMinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavalMinesTests-Info.plist"; sourceTree = "<group>"; };
+		D8D0FE6E181FF364007C9B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D0FE70181FF364007C9B9A /* NavalMinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavalMinesTests.m; sourceTree = "<group>"; };
+		D8D0FE7B181FF430007C9B9A /* BottomContactMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BottomContactMines.html; sourceTree = "<group>"; };
+		D8D0FE7C181FF430007C9B9A /* captor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captor.png; sourceTree = "<group>"; };
+		D8D0FE7D181FF430007C9B9A /* Classification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classification.html; sourceTree = "<group>"; };
+		D8D0FE7E181FF430007C9B9A /* Countermeasures.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Countermeasures.html; sourceTree = "<group>"; };
+		D8D0FE7F181FF430007C9B9A /* DriftingContactMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DriftingContactMines.html; sourceTree = "<group>"; };
+		D8D0FE80181FF430007C9B9A /* global.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = global.css; sourceTree = "<group>"; };
+		D8D0FE81181FF430007C9B9A /* InfluenceMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InfluenceMines.html; sourceTree = "<group>"; };
+		D8D0FE82181FF430007C9B9A /* LimpetMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LimpetMines.html; sourceTree = "<group>"; };
+		D8D0FE83181FF430007C9B9A /* MooredContactMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MooredContactMines.html; sourceTree = "<group>"; };
+		D8D0FE84181FF430007C9B9A /* ramics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ramics.png; sourceTree = "<group>"; };
+		D8D0FE85181FF430007C9B9A /* RemotelyControlledMines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RemotelyControlledMines.html; sourceTree = "<group>"; };
+		D8D0FE86181FF430007C9B9A /* remus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remus.png; sourceTree = "<group>"; };
+		D8D0FE87181FF430007C9B9A /* rmmv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rmmv.png; sourceTree = "<group>"; };
+		D8D0FE88181FF430007C9B9A /* slmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slmm.png; sourceTree = "<group>"; };
+		D8D0FE89181FF430007C9B9A /* videoCaptor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoCaptor.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D0FE3C181FF364007C9B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE45181FF364007C9B9A /* CoreGraphics.framework in Frameworks */,
+				D8D0FE47181FF364007C9B9A /* UIKit.framework in Frameworks */,
+				D8D0FE43181FF364007C9B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D0FE60181FF364007C9B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE65181FF364007C9B9A /* XCTest.framework in Frameworks */,
+				D8D0FE67181FF364007C9B9A /* UIKit.framework in Frameworks */,
+				D8D0FE66181FF364007C9B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D0FE36181FF364007C9B9A = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE48181FF364007C9B9A /* NavalMines */,
+				D8D0FE6A181FF364007C9B9A /* NavalMinesTests */,
+				D8D0FE41181FF364007C9B9A /* Frameworks */,
+				D8D0FE40181FF364007C9B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D0FE40181FF364007C9B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE3F181FF364007C9B9A /* NavalMines.app */,
+				D8D0FE63181FF364007C9B9A /* NavalMinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D0FE41181FF364007C9B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE42181FF364007C9B9A /* Foundation.framework */,
+				D8D0FE44181FF364007C9B9A /* CoreGraphics.framework */,
+				D8D0FE46181FF364007C9B9A /* UIKit.framework */,
+				D8D0FE64181FF364007C9B9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D0FE48181FF364007C9B9A /* NavalMines */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE7A181FF430007C9B9A /* HTML Pages */,
+				D8D0FE51181FF364007C9B9A /* AppDelegate.h */,
+				D8D0FE52181FF364007C9B9A /* AppDelegate.m */,
+				D8D0FE54181FF364007C9B9A /* Main.storyboard */,
+				D8D0FE57181FF364007C9B9A /* MasterViewController.h */,
+				D8D0FE58181FF364007C9B9A /* MasterViewController.m */,
+				D8D0FE5A181FF364007C9B9A /* DetailViewController.h */,
+				D8D0FE5B181FF364007C9B9A /* DetailViewController.m */,
+				D8D0FE5D181FF364007C9B9A /* Images.xcassets */,
+				D8D0FE49181FF364007C9B9A /* Supporting Files */,
+			);
+			path = NavalMines;
+			sourceTree = "<group>";
+		};
+		D8D0FE49181FF364007C9B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE4A181FF364007C9B9A /* NavalMines-Info.plist */,
+				D8D0FE4B181FF364007C9B9A /* InfoPlist.strings */,
+				D8D0FE4E181FF364007C9B9A /* main.m */,
+				D8D0FE50181FF364007C9B9A /* NavalMines-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D0FE6A181FF364007C9B9A /* NavalMinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE70181FF364007C9B9A /* NavalMinesTests.m */,
+				D8D0FE6B181FF364007C9B9A /* Supporting Files */,
+			);
+			path = NavalMinesTests;
+			sourceTree = "<group>";
+		};
+		D8D0FE6B181FF364007C9B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE6C181FF364007C9B9A /* NavalMinesTests-Info.plist */,
+				D8D0FE6D181FF364007C9B9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D0FE7A181FF430007C9B9A /* HTML Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0FE7B181FF430007C9B9A /* BottomContactMines.html */,
+				D8D0FE7C181FF430007C9B9A /* captor.png */,
+				D8D0FE7D181FF430007C9B9A /* Classification.html */,
+				D8D0FE7E181FF430007C9B9A /* Countermeasures.html */,
+				D8D0FE7F181FF430007C9B9A /* DriftingContactMines.html */,
+				D8D0FE80181FF430007C9B9A /* global.css */,
+				D8D0FE81181FF430007C9B9A /* InfluenceMines.html */,
+				D8D0FE82181FF430007C9B9A /* LimpetMines.html */,
+				D8D0FE83181FF430007C9B9A /* MooredContactMines.html */,
+				D8D0FE84181FF430007C9B9A /* ramics.png */,
+				D8D0FE85181FF430007C9B9A /* RemotelyControlledMines.html */,
+				D8D0FE86181FF430007C9B9A /* remus.png */,
+				D8D0FE87181FF430007C9B9A /* rmmv.png */,
+				D8D0FE88181FF430007C9B9A /* slmm.png */,
+				D8D0FE89181FF430007C9B9A /* videoCaptor.mp4 */,
+			);
+			path = "HTML Pages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D0FE3E181FF364007C9B9A /* NavalMines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D0FE74181FF364007C9B9A /* Build configuration list for PBXNativeTarget "NavalMines" */;
+			buildPhases = (
+				D8D0FE3B181FF364007C9B9A /* Sources */,
+				D8D0FE3C181FF364007C9B9A /* Frameworks */,
+				D8D0FE3D181FF364007C9B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavalMines;
+			productName = NavalMines;
+			productReference = D8D0FE3F181FF364007C9B9A /* NavalMines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D0FE62181FF364007C9B9A /* NavalMinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D0FE77181FF364007C9B9A /* Build configuration list for PBXNativeTarget "NavalMinesTests" */;
+			buildPhases = (
+				D8D0FE5F181FF364007C9B9A /* Sources */,
+				D8D0FE60181FF364007C9B9A /* Frameworks */,
+				D8D0FE61181FF364007C9B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D0FE69181FF364007C9B9A /* PBXTargetDependency */,
+			);
+			name = NavalMinesTests;
+			productName = NavalMinesTests;
+			productReference = D8D0FE63181FF364007C9B9A /* NavalMinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D0FE37181FF364007C9B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mike Gazdich";
+				TargetAttributes = {
+					D8D0FE3E181FF364007C9B9A = {
+						DevelopmentTeam = 4YCR2BLXKU;
+					};
+					D8D0FE62181FF364007C9B9A = {
+						TestTargetID = D8D0FE3E181FF364007C9B9A;
+					};
+				};
+			};
+			buildConfigurationList = D8D0FE3A181FF364007C9B9A /* Build configuration list for PBXProject "NavalMines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D0FE36181FF364007C9B9A;
+			productRefGroup = D8D0FE40181FF364007C9B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D0FE3E181FF364007C9B9A /* NavalMines */,
+				D8D0FE62181FF364007C9B9A /* NavalMinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D0FE3D181FF364007C9B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE92181FF430007C9B9A /* MooredContactMines.html in Resources */,
+				D8D0FE91181FF430007C9B9A /* LimpetMines.html in Resources */,
+				D8D0FE5E181FF364007C9B9A /* Images.xcassets in Resources */,
+				D8D0FE4D181FF364007C9B9A /* InfoPlist.strings in Resources */,
+				D8D0FE93181FF430007C9B9A /* ramics.png in Resources */,
+				D8D0FE56181FF364007C9B9A /* Main.storyboard in Resources */,
+				D8D0FE94181FF430007C9B9A /* RemotelyControlledMines.html in Resources */,
+				D8D0FE8E181FF430007C9B9A /* DriftingContactMines.html in Resources */,
+				D8D0FE8B181FF430007C9B9A /* captor.png in Resources */,
+				D8D0FE90181FF430007C9B9A /* InfluenceMines.html in Resources */,
+				D8D0FE97181FF430007C9B9A /* slmm.png in Resources */,
+				D8D0FE8F181FF430007C9B9A /* global.css in Resources */,
+				D8D0FE98181FF430007C9B9A /* videoCaptor.mp4 in Resources */,
+				D8D0FE8C181FF430007C9B9A /* Classification.html in Resources */,
+				D8D0FE8D181FF430007C9B9A /* Countermeasures.html in Resources */,
+				D8D0FE96181FF430007C9B9A /* rmmv.png in Resources */,
+				D8D0FE95181FF430007C9B9A /* remus.png in Resources */,
+				D8D0FE8A181FF430007C9B9A /* BottomContactMines.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D0FE61181FF364007C9B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE6F181FF364007C9B9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D0FE3B181FF364007C9B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE53181FF364007C9B9A /* AppDelegate.m in Sources */,
+				D8D0FE59181FF364007C9B9A /* MasterViewController.m in Sources */,
+				D8D0FE4F181FF364007C9B9A /* main.m in Sources */,
+				D8D0FE5C181FF364007C9B9A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D0FE5F181FF364007C9B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0FE71181FF364007C9B9A /* NavalMinesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D0FE69181FF364007C9B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D0FE3E181FF364007C9B9A /* NavalMines */;
+			targetProxy = D8D0FE68181FF364007C9B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D0FE4B181FF364007C9B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D0FE4C181FF364007C9B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D0FE54181FF364007C9B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D0FE55181FF364007C9B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8D0FE6D181FF364007C9B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D0FE6E181FF364007C9B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D0FE72181FF364007C9B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D8D0FE73181FF364007C9B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D0FE75181FF364007C9B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavalMines/NavalMines-Prefix.pch";
+				INFOPLIST_FILE = "NavalMines/NavalMines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8D0FE76181FF364007C9B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavalMines/NavalMines-Prefix.pch";
+				INFOPLIST_FILE = "NavalMines/NavalMines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8D0FE78181FF364007C9B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavalMines.app/NavalMines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavalMines/NavalMines-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavalMinesTests/NavalMinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8D0FE79181FF364007C9B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavalMines.app/NavalMines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavalMines/NavalMines-Prefix.pch";
+				INFOPLIST_FILE = "NavalMinesTests/NavalMinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D0FE3A181FF364007C9B9A /* Build configuration list for PBXProject "NavalMines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D0FE72181FF364007C9B9A /* Debug */,
+				D8D0FE73181FF364007C9B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D0FE74181FF364007C9B9A /* Build configuration list for PBXNativeTarget "NavalMines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D0FE75181FF364007C9B9A /* Debug */,
+				D8D0FE76181FF364007C9B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8D0FE77181FF364007C9B9A /* Build configuration list for PBXNativeTarget "NavalMinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D0FE78181FF364007C9B9A /* Debug */,
+				D8D0FE79181FF364007C9B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D0FE37181FF364007C9B9A /* Project object */;
+}
